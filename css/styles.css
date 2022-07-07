@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Archivo', sans-serif;
+}
+.navbarM{
+    margin: 50px 80px;
+}
+.navbarM p{
+    position: absolute;
+    right: 52%;
+    top: 8%;
+    color: grey;
+}
+.middle-container{
+    margin-top: 8%;
+    margin-left: 5.5%;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.headings p{
+    color: grey;
+    margin-top: 15px;
+}
+input[type=text], [type=password]{
+    margin-top: 10px;
+    width: 39%;
+    padding: 17px 40px;
+    background-color: #F7F6F6;
+    border: white;
+}
+.ibutton{
+    margin-top: 2%;
+}
+.createacBtn{
+    width: 44.5%;
+    padding: 17px 40px;
+    background-color: black;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+a{
+    color: dodgerblue;
+}
+.split {
+    height: 100%;
+    width: 44%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .right {
+    right: 0;
+    background-color: #F4F0EB;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .small-headings h4{
+    position: absolute;
+    bottom: 35%;
+    right: 30%;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    font-weight: 600;
+  }
+  .testimonial-img{
+    position: absolute;
+    bottom: 27%;
+    right: 63.3%;
+  }
+  h5{
+    font-size: 1.1rem;
+    position: absolute;
+    bottom: 30%;
+    right: 45%;
+  }
+  .para{
+    position: absolute;
+    bottom: 27%;
+    right: 41%;
+  }
+
+  @media(max-width:480px){
+    .navbarM{
+        margin: 30px 20px;
+    }
+    .navbarM p{
+        position: block;
+        right: 5%;
+        top: 4%;
+        color: grey;
+    }
+    .middle-container{
+        margin-top: 5%;
+        margin-left: 5.5%;
+    }
+    h1{
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    .headings p{
+        color: grey;
+        margin-top: 15px;
+    }
+    input[type=text], [type=password]{
+        margin-top: 10px;
+        width: 75%;
+        padding: 17px 40px;
+        background-color: #F7F6F6;
+        border: white;
+    }
+    .ibutton{
+        margin-top: 6%;
+    }
+    .createacBtn{
+        width: 97%;
+        padding: 17px 40px;
+        background-color: black;
+        color: #fff;
+        border-radius: 4px;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    a{
+        color: dodgerblue;
+    }
+    .split {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      overflow-x: hidden;
+      padding-top: 123%;
+    }
+    .right {
+      right: 0;
+      background-color: #F4F0EB;
+      margin-top: 40px;
+    }
+    .centered {
+     display: none;
+    }  
+      .small-headings h4{
+        position: absolute;
+        bottom: 53%;
+        right: 30%;
+        font-size: 1.3rem;
+        line-height: 2rem;
+        font-weight: 600;
+      }
+      .testimonial-img{
+        position: absolute;
+        bottom: 40%;
+        right: 80%;
+      }
+      h5{
+        font-size: 1.1rem;
+        position: absolute;
+        bottom: 44%;
+        right: 45%;
+      }
+      .para{
+        position: absolute;
+        bottom: 40%;
+        right: 39%;
+  }
+}
